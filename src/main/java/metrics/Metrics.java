@@ -12,8 +12,16 @@ public class Metrics {
     public long getComparisons() { return comparisons; }
     public long getElapsedNs() { return System.nanoTime() - start; }
 
-    public void exportCSV(String file, int n) {
-        try (FileWriter fw = new FileWriter(file, true)) {
+    public static void writeCSVHeader(String filename) {
+        try (FileWriter fw = new FileWriter(filename, false)) {
+            fw.write("n,timeNs,comparisons\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void exportCSV(String filename, int n) {
+        try (FileWriter fw = new FileWriter(filename, true)) {
             fw.write(n + "," + getElapsedNs() + "," + getComparisons() + "\n");
         } catch (IOException e) {
             e.printStackTrace();

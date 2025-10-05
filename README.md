@@ -1,9 +1,6 @@
 # DAA Assignment 2 — Pair 3
 
-Student A: [Ingkar Adilbek]
-Group: [SE-2424]
-Algorithm implemented: Boyer–Moore Majority Vote
-Algorithm analyzed: Kadane's algorithm
+Student A: [Ingkar Adilbek]  Group: [SE-2424]  Algorithm implemented: Boyer–Moore Majority Vote  Algorithm analyzed: Kadane's algorithm
 
 ⸻
 

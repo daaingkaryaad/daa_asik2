@@ -3,7 +3,6 @@
 Student A: [Ingkar Adilbek]
 Group: [SE-2424]
 Algorithm implemented: Boyer–Moore Majority Vote
-Algorithm analyzed: Kadane’s Algorithm (by [Partner’s Name])
 
 ⸻
 

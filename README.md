@@ -100,6 +100,12 @@ CSV export format used by the project:
 
 n,elapsedNs,comparisons,arrayAccesses
 
+#### Comparisons vs. Input Size:
+![Kadane Comparisons] (docs/performance-plots/kadane_comparisons.png)
+
+#### Array Accesses vs. Input Size:
+![Kadane Array Accesses] (docs/performance-plots/kadane_arrayAccesses)
+
 This CSV can be plotted (e.g., n vs elapsedNs or n vs comparisons) to confirm linear trends.
 
 ⸻

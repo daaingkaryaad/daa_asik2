@@ -104,7 +104,7 @@ n,elapsedNs,comparisons,arrayAccesses
 ![Kadane Comparisons](docs/performance-plots/kadane_comparisons.png)
 
 #### Array Accesses vs. Input Size:
-![Kadane Array Accesses](docs/performance-plots/kadane_arrayAccesses)
+![Kadane Array Accesses](docs/performance-plots/kadane_arrayAccesses.png)
 
 This CSV can be plotted (e.g., n vs elapsedNs or n vs comparisons) to confirm linear trends.
 
